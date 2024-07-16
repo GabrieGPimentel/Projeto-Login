@@ -32,10 +32,13 @@ verde: #49a09d
     transform: translate(-50%,-50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.449);
+
+    transition: width 0.3s, height,0.3s;
+    -o-transition-timing-function:ease ;
  }
   section#login > div#imagem{
     display: block;
-    background: #5f2c82 url(./imagens/pexels-jan-van-der-wolf-11680885-22707191\ \(1\).jpg) no-repeat;
+    background: #5f2c82 url(../imagens/pexels-jan-van-der-wolf-11680885-22707191\ \(1\).jpg) no-repeat;
     background-size: cover;
     height: 200px;
     
