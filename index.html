@@ -3,62 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <title>Projeto login</title>
+    <link rel="stylesheet" href="est-css/teste.css">
+    <link rel="stylesheet" href="est-css/mediaquery.css">
 </head>
 <body>
-    <div id="cx01">
-        <div class="cx02">
-            <img src="imagens/pexels-jan-van-der-wolf-11680885-22707191 (1).jpg" alt="imagem de entrada">
-        </div>
-        <div class="cx03">
-            <h1>Login</h1>
-            <p>Seja bem-vindo(a) novamente.
-                Faça login para acessar sua conta 
-                e poder usar as configurações do seu ambiente.</p>
-           
-                <form action="" method="get" autocomplete="on">
-                    <br>
-                    <br>
-                    <div class="teste01">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-                          </svg>
-                <input type="email" name="email" id="email" placeholder="digite seu email" required>
-                </div>
-                <br>
-                <br>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                <!-- aqui vai a minha imagem nas css -->
+            </div>
 
-                <div class="teste01" >
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-key" viewBox="0 0 16 16">
-                        <path d="M0 8a4 4 0 0 1 7.465-2H14a.5.5 0 0 1 .354.146l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0L13 9.207l-.646.647a.5.5 0 0 1-.708 0L11 9.207l-.646.647a.5.5 0 0 1-.708 0L9 9.207l-.646.647A.5.5 0 0 1 8 10h-.535A4 4 0 0 1 0 8m4-3a3 3 0 1 0 2.712 4.285A.5.5 0 0 1 7.163 9h.63l.853-.854a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.793-.793-1-1h-6.63a.5.5 0 0 1-.451-.285A3 3 0 0 0 4 5"/>
-                        <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
-                      </svg>
-                
-                    
-                    
-                    
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Sela bem-vindo(a) novamente.Faça login para acessar sua conta e poder fazer as configurações no seu anbiente. </p>
 
-                <input type="password" name="senha" id="senha"placeholder="sua senha" required>
+        <form action="login.php" method="post" autocomplete="on">
+
+        <div class="campo">
+        <img class="contato" src="icon/person_23dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="icone de email">
+        <input type="email" name="email" id="ilogin" placeholder="seu e-mail" required autocomplete="email"  maxlength="30">
+        <label for="ilogin">login</label>
+
+</div>
+
+<div class="campo">
+   <img class="chave" src="icon/key_23dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="icone de chave para senha">
+    <input type="password" name="senha" id="isenha"
+    placeholder="sua senha" required autocomplete="current-password" minlength="8"
+    maxlength="20">
+    <label for="isenha">Senha</label>
+</div>
+<input type="submit" value="Entrar">
+
+<a href="esqueci.html">Esqueci a senha <img class="email" src="icon/mail_23dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="icone de email"></a>
+
+
+
+
+</form>
 
             </div>
-                <br>
-                <br>
-                <input type="submit" value="Entrar" id="Entrar" >
-                <br>
-                <br>
-                <br>
-                <br>
-                <div class="ancora">
-               <a href="#" class="btn">Recupere sua Senha</a>
-                </div>
-  </div>
 
-                </form>
-        </div>
-        
 
-    </div>
+
+        </section>
+
+    </main>
     
 </body>
+</html>
 </html>

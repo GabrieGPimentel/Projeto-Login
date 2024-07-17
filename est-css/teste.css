@@ -48,3 +48,16 @@ verde: #49a09d
     padding: 10px;
 
  }
+ div#formulario > h1{
+   text-align: center;
+   margin-bottom: 10px;
+
+ } 
+ .email{
+   width: 20px;
+ }
+ img{
+   width: 14px;
+   
+   margin: 0px;
+ }
