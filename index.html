@@ -6,6 +6,7 @@
     <title>Projeto login</title>
     <link rel="stylesheet" href="est-css/teste.css">
     <link rel="stylesheet" href="est-css/mediaquery.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
     <main>
@@ -21,14 +22,14 @@
         <form action="login.php" method="post" autocomplete="on">
 
         <div class="campo">
-        <img class="contato" src="icon/person_23dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="icone de email">
+            <i class="bi bi-person-fill"></i>
         <input type="email" name="email" id="ilogin" placeholder="seu e-mail" required autocomplete="email"  maxlength="30">
         <label for="ilogin">login</label>
 
 </div>
 
 <div class="campo">
-   <img class="chave" src="icon/key_23dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="icone de chave para senha">
+    <i class="bi bi-key-fill"></i>
     <input type="password" name="senha" id="isenha"
     placeholder="sua senha" required autocomplete="current-password" minlength="8"
     maxlength="20">
@@ -36,7 +37,7 @@
 </div>
 <input type="submit" value="Entrar">
 
-<a href="esqueci.html" class="btn">Esqueci a senha <img class="email" src="icon/mail_23dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="icone de email"></a>
+<a href="esqueci.html" class="btn">Esqueci a senha <i class="bi bi-envelope"></i></a>
 
 
 

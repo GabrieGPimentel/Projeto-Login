@@ -100,10 +100,33 @@ form > a.btn:hover {
 }
 form > div.campo {
    background-color: #5f2c82;
-   display: block;
+   padding-top: 8px;
+   display: inline;
    width: 100%;
    height: 30px;
-   border-radius: 5px;
-   margin: 5px 0px;
+   border-radius: 8px;
+   border: 3px solid #5f2c82;
 
+}
+div.campo > i {
+   
+   color: white;
+   font-size: 1.4em;
+   width: 15px;
+   padding: 3px 1px 8px 7px;
+
+}
+div.campo > input {
+   background-color: #6be2de;
+   font-size: 1em;
+   width: calc(100% -44px);
+   transform: translateY(-4px);
+   padding: 4px;
+   height: 100%;
+   border: 0px;
+   border-radius: 5px;
+
+
+
+   
 }
