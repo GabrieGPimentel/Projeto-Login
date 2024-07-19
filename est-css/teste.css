@@ -61,3 +61,16 @@ verde: #49a09d
    
    margin: 0px;
  }
+form > input[type=submit]{
+   display: block;
+   width: 100%;
+   height: 30px;
+   background-color:#49a09d;
+   color: white;
+   border: none;
+   border-radius: 5px;
+}
+form > input[type=submit]:hover{
+   background-color: #49a09d;
+
+}
