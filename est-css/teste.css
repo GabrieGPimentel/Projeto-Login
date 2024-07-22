@@ -100,12 +100,13 @@ form > a.btn:hover {
 }
 form > div.campo {
    background-color: #5f2c82;
-   padding-top: 8px;
-   display: inline;
+   
+   display: block;
    width: 100%;
-   height: 30px;
+   height: 33px;
    border-radius: 8px;
-   border: 3px solid #5f2c82;
+
+   margin-top: 7px;
 
 }
 div.campo > i {
@@ -113,18 +114,30 @@ div.campo > i {
    color: white;
    font-size: 1.4em;
    width: 15px;
-   padding: 3px 1px 8px 7px;
+   padding-left: 5px;
+  
+  
+  
 
 }
+div.campo > input:focus-within{
+   background-color: white;
+   outline: none;
+}
 div.campo > input {
-   background-color: #6be2de;
-   font-size: 1em;
-   width: calc(100% -44px);
-   transform: translateY(-4px);
-   padding: 4px;
-   height: 100%;
-   border: 0px;
-   border-radius: 5px;
+   background-color: #62d3d0;
+   color: black;
+   font-weight: bold;
+height: 31px;
+width: 195px;
+border-radius: 5px 4px 4px 5px;
+transform: translatey(-2px);
+
+
+
+
+
+ 
 
 
 
