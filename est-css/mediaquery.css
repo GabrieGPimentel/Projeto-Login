@@ -9,7 +9,8 @@ Tablet: 768px até 992px
 Desktop: 992 até 1200px
 Grandes: acima de 1200px
 
-*/
+/*configuracao para tablet  */
+
  @media  screen and (min-width:768px) and (max-width:992px){
     body{
         background-image: linear-gradient(to top,#49a09d,
@@ -34,10 +35,18 @@ Grandes: acima de 1200px
     div.campo > input {
     
         width: 90%;
+        border: 10px 5px solid #62d3d0;
+        transform: translate(13px,-2px);
+        
+        
+        
+        
    
     
 }
  }
+ /* configuracoes para descktop */
+
 @media  screen and (min-width:992px){
     body{
         background-image: linear-gradient(to top,#49a09d,
@@ -68,6 +77,8 @@ Grandes: acima de 1200px
     
 }
 }
+/* configuracao telasgrades */
+
 @media  screen and (min-width:1200px){
     body{
         background-image: linear-gradient(to top,#49a09d,
@@ -89,11 +100,13 @@ Grandes: acima de 1200px
         font-size: 2em;
       }
     div#formulario > p{
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
       }
     
     
         div.campo > input {
+
     
             width: 92%;
        
@@ -102,4 +115,4 @@ Grandes: acima de 1200px
    
     
 }
-    }
+    
